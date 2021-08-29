@@ -1,0 +1,139 @@
+body {
+    background-color: aqua;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+
+    font-size: 100px;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.container span{
+    color: black;
+    text-transform: uppercase;
+    display: inline;
+
+}
+
+.text1 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+    color: white;
+    
+    position: relative;
+    animation: texts 3s 1;
+    
+    top: -200px;
+}
+
+
+
+@keyframes texts{
+
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+
+    }
+
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+        vertical-align: top;
+        
+    }
+
+    100%{
+
+        
+
+    }
+
+}
+
+li{
+    
+        display: inline;
+ 
+        font-size: 25px;
+        
+}
+
+
+a:visited{
+    color:unset;
+    background-color: skyblue;
+    color: whitesmoke;
+}
+
+
+a:hover{
+    background-color: whitesmoke;
+    top: -15px;
+    color: black;
+    
+}
+
+a{
+    background-color: chartreuse;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    margin-top: 5%;
+    
+}
+
+button{
+    background-color: Black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30%;
+    
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+.updates{
+    display: inline-block;
+    margin-top: 20%;
+    background-color: wheat;
+}
+
+.aboutUs{
+    margin-top: 15%;
+    
+    background-color: rgb(141, 248, 239);
+    display: inline-block;
+    text-align: center;
+}
